@@ -4,7 +4,7 @@ import numpy as np
 blank = np.zeros((500,500,3), dtype = 'uint8')
 cv.imshow('Blank image',blank)
 
-# blank[200:300, 300:400] = 0,0,255
+# blank[200'p3:300, 300:400] = 0,0,255
 # cv.imshow('Red',blank)
 
 # ##Draw Rectangle

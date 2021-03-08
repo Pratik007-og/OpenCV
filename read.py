@@ -1,11 +1,11 @@
 import cv2 as cv
 
-## READING IMAGES
-# img  = cv2.imread('photos/PP.jpg')
+# READING IMAGES
+img  = cv2.imread('photos/PP.jpg')
 
-# cv2.imshow('Me', img)
+cv2.imshow('Me', img)
 
-# cv2.waitKey(0)
+cv2.waitKey(0)
 
 ## READING VIDEOS
 # capture = cv.VideoCapture(0)
