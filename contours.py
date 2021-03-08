@@ -10,7 +10,7 @@ blank = np.zeros(img.shape, dtype = 'uint8')
 cv.imshow('Blank', blank)
 
 blur = cv.GaussianBlur(gray, (5,5), cv.BORDER_DEFAULT)
-cv.imshow('Blue', blur)
+cv.imshow('Blur', blur)
 
 canny = cv.Canny(blur, 125, 175)
 cv.imshow('Canny Edges', canny)
